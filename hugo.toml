@@ -1,0 +1,84 @@
+baseURL                        = "https://cyberlimes.com/"
+languageCode                   = "zh-CN"
+title                          = "赛博酸橙"
+theme                          = "cyberlimes"
+paginate                       = 10
+timeZone                       = "Asia/Shanghai"
+pluralizeListTitles            = false
+defaultContentLanguage         = "zh"
+defaultContentLanguageInSubdir = false
+
+[markup.goldmark.renderer]
+  unsafe= true
+
+[params]
+  author                       = ""
+  email                        = ""
+  recent_posts_number          = 10
+
+[languages]
+  [languages.zh]
+    contentDir                 = "content/zh"
+    disabled                   = false
+    languageCode               = "zh-CN"
+    languageDirection          = "ltr"
+    languageName               = "简体中文"
+    title                      = "赛博酸橙"
+    weight                     = 1
+    hasCJKLanguage             = true
+    summaryLength              = 230
+    [languages.zh.params]
+      date_format              = "2006 年，January 2 日"
+    [languages.zh.menus]
+      [[languages.zh.menus.main]]
+        name                   = "介绍"
+        url                    = "#introduction"
+        weight                 = 2
+      [[languages.zh.menus.main]]
+        name                   = "愿景"
+        url                    = "#vision"
+        weight                 = 3
+      [[languages.zh.menus.main]]
+        name                   = "案例"
+        url                    = "#cases"
+        weight                 = 4
+      [[languages.zh.menus.main]]
+        name                   = "团队"
+        url                    = "#team"
+        weight                 = 5
+      [[languages.zh.menus.main]]
+        name                   = "加入我们"
+        url                    = "#join-us"
+        weight                 = 6
+
+  [languages.en]
+    contentDir                 = "content/en"
+    disabled                   = false
+    languageCode               = "en-US"
+    languageDirection          = "ltr"
+    languageName               = "English"
+    title                      = "Cyberlimes"
+    weight                     = 2
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        name                    = "Introduction"
+        url                     = "#introduction"
+        weight                  = 2
+      [[languages.en.menus.main]]
+        name                    = "Vision"
+        url                     = "#vision"
+        weight                  = 3
+      [[languages.en.menus.main]]
+        name                    = "Cases"
+        url                     = "#cases"
+        weight                  = 4
+      [[languages.en.menus.main]]
+        name                    = "Team"
+        url                     = "#team"
+        weight                  = 5
+      [[languages.en.menus.main]]
+        name                    = "Join us"
+        url                     = "#join-us"
+        weight                  = 6
+
+

@@ -1,0 +1,3 @@
+[submodule "themes/cyberlimes"]
+	path = themes/cyberlimes
+	url = https://github.com/cyberlimes/cyberlimes-hugo-theme.git
